@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+
+    <title>OAuth WebMap using Proxy Page</title>
+
+    <link rel="stylesheet" href="//js.arcgis.com/3.9/js/esri/css/esri.css">
+
+	<style>
+      html, body, #map {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <script type="text/javascript">
+        var dojoConfig = {
+            packages: [{
+                // Our application package
+                name: "app",
+                location: location.pathname.replace(/\/[^/]+$/, "") + "/app"
+            }]
+        };
+    </script>
+    <script src="//js.arcgis.com/3.9/"></script>
+    <script>
+        // Require package and load main.js automatically
+        require(["app"]);
+    </script>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>

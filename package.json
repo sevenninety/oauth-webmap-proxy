@@ -1,0 +1,15 @@
+{
+	"name": "oauth-webmap-proxy",
+	"description": "Demonstrates OAuth authentication using a proxy page",
+	"version": "1.0.0",
+	"main": "main",
+	"dependencies": {
+		"express": "3.x"
+	},
+	"deveDependencies": {
+		"jshint": "2.x",
+		"nodemon": "1.x"
+	},
+	"homepage": "https://github.com/sevenninety/oauth-webmap-proxy/",
+	"readmeFilename": "README.md"
+}
